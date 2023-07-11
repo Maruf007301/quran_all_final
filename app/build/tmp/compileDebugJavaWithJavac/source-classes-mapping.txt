@@ -1,0 +1,120 @@
+com/maruf/tech/quranallsura/utility/PermissionUtilities.java
+ com.maruf.tech.quranallsura.utility.PermissionUtilities
+com/maruf/tech/quranallsura/data/sqlite/NotificationDbController.java
+ com.maruf.tech.quranallsura.data.sqlite.NotificationDbController
+com/maruf/tech/quranallsura/data/constant/AppConstant.java
+ com.maruf.tech.quranallsura.data.constant.AppConstant
+com/maruf/tech/quranallsura/data/preference/AppPreference.java
+ com.maruf.tech.quranallsura.data.preference.AppPreference
+com/maruf/tech/quranallsura/data/sqlite/DbConstants.java
+ com.maruf.tech.quranallsura.data.sqlite.DbConstants
+com/maruf/tech/quranallsura/BuildConfig.java
+ com.maruf.tech.quranallsura.BuildConfig
+com/maruf/tech/quranallsura/webengine/WebEngine.java
+ com.maruf.tech.quranallsura.webengine.WebEngine
+ com.maruf.tech.quranallsura.webengine.WebEngine$1
+ com.maruf.tech.quranallsura.webengine.WebEngine$2
+ com.maruf.tech.quranallsura.webengine.WebEngine$3
+com/maruf/tech/quranallsura/activity/DetailsActivity.java
+ com.maruf.tech.quranallsura.activity.DetailsActivity
+ com.maruf.tech.quranallsura.activity.DetailsActivity$1
+ com.maruf.tech.quranallsura.activity.DetailsActivity$2
+ com.maruf.tech.quranallsura.activity.DetailsActivity$3
+com/maruf/tech/quranallsura/models/favorite/FavoriteModel.java
+ com.maruf.tech.quranallsura.models.favorite.FavoriteModel
+com/maruf/tech/quranallsura/utility/DialogUtilities.java
+ com.maruf.tech.quranallsura.utility.DialogUtilities
+ com.maruf.tech.quranallsura.utility.DialogUtilities$1
+ com.maruf.tech.quranallsura.utility.DialogUtilities$2
+ com.maruf.tech.quranallsura.utility.DialogUtilities$OnCompleteListener
+com/maruf/tech/quranallsura/utility/AppUtilities.java
+ com.maruf.tech.quranallsura.utility.AppUtilities
+ com.maruf.tech.quranallsura.utility.AppUtilities$1
+com/maruf/tech/quranallsura/activity/SplashActivity.java
+ com.maruf.tech.quranallsura.activity.SplashActivity
+ com.maruf.tech.quranallsura.activity.SplashActivity$1
+ com.maruf.tech.quranallsura.activity.SplashActivity$1$1
+com/maruf/tech/quranallsura/utility/TtsEngine.java
+ com.maruf.tech.quranallsura.utility.TtsEngine
+ com.maruf.tech.quranallsura.utility.TtsEngine$1
+ com.maruf.tech.quranallsura.utility.TtsEngine$PlayStatusListener
+com/maruf/tech/quranallsura/activity/CustomUrlActivity.java
+ com.maruf.tech.quranallsura.activity.CustomUrlActivity
+ com.maruf.tech.quranallsura.activity.CustomUrlActivity$1
+com/maruf/tech/quranallsura/view/PhenomenaTextView.java
+ com.maruf.tech.quranallsura.view.PhenomenaTextView
+com/maruf/tech/quranallsura/listeners/ListItemClickListener.java
+ com.maruf.tech.quranallsura.listeners.ListItemClickListener
+com/maruf/tech/quranallsura/activity/NotificationListActivity.java
+ com.maruf.tech.quranallsura.activity.NotificationListActivity
+ com.maruf.tech.quranallsura.activity.NotificationListActivity$1
+com/maruf/tech/quranallsura/adapters/FavoriteAdapter.java
+ com.maruf.tech.quranallsura.adapters.FavoriteAdapter
+ com.maruf.tech.quranallsura.adapters.FavoriteAdapter$ViewHolder
+com/maruf/tech/quranallsura/activity/SearchActivity.java
+ com.maruf.tech.quranallsura.activity.SearchActivity
+ com.maruf.tech.quranallsura.activity.SearchActivity$1
+ com.maruf.tech.quranallsura.activity.SearchActivity$2
+ com.maruf.tech.quranallsura.activity.SearchActivity$3
+com/maruf/tech/quranallsura/activity/FavoriteListActivity.java
+ com.maruf.tech.quranallsura.activity.FavoriteListActivity
+ com.maruf.tech.quranallsura.activity.FavoriteListActivity$1
+com/maruf/tech/quranallsura/data/preference/PrefKey.java
+ com.maruf.tech.quranallsura.data.preference.PrefKey
+com/maruf/tech/quranallsura/utility/AnalyticsUtilities.java
+ com.maruf.tech.quranallsura.utility.AnalyticsUtilities
+com/maruf/tech/quranallsura/utility/ActivityUtilities.java
+ com.maruf.tech.quranallsura.utility.ActivityUtilities
+com/maruf/tech/quranallsura/activity/BaseActivity.java
+ com.maruf.tech.quranallsura.activity.BaseActivity
+ com.maruf.tech.quranallsura.activity.BaseActivity$1
+com/maruf/tech/quranallsura/listeners/WebListener.java
+ com.maruf.tech.quranallsura.listeners.WebListener
+com/maruf/tech/quranallsura/adapters/ContentAdapter.java
+ com.maruf.tech.quranallsura.adapters.ContentAdapter
+ com.maruf.tech.quranallsura.adapters.ContentAdapter$ViewHolder
+com/maruf/tech/quranallsura/app/MyApplication.java
+ com.maruf.tech.quranallsura.app.MyApplication
+com/maruf/tech/quranallsura/adapters/NotificationAdapter.java
+ com.maruf.tech.quranallsura.adapters.NotificationAdapter
+ com.maruf.tech.quranallsura.adapters.NotificationAdapter$ViewHolder
+com/maruf/tech/quranallsura/utility/AdsUtilities.java
+ com.maruf.tech.quranallsura.utility.AdsUtilities
+ com.maruf.tech.quranallsura.utility.AdsUtilities$1
+com/maruf/tech/quranallsura/models/notification/NotificationModel.java
+ com.maruf.tech.quranallsura.models.notification.NotificationModel
+com/maruf/tech/quranallsura/utility/DateUtilities.java
+ com.maruf.tech.quranallsura.utility.DateUtilities
+ com.maruf.tech.quranallsura.utility.DateUtilities$DateTimeFormat
+com/maruf/tech/quranallsura/activity/SettingsActivity.java
+ com.maruf.tech.quranallsura.activity.SettingsActivity
+ com.maruf.tech.quranallsura.activity.SettingsActivity$MyPreferenceFragment
+com/maruf/tech/quranallsura/utility/FilePickerUtilities.java
+ com.maruf.tech.quranallsura.utility.FilePickerUtilities
+com/maruf/tech/quranallsura/webengine/VideoViewer.java
+ com.maruf.tech.quranallsura.webengine.VideoViewer
+com/maruf/tech/quranallsura/activity/NotificationDetailsActivity.java
+ com.maruf.tech.quranallsura.activity.NotificationDetailsActivity
+ com.maruf.tech.quranallsura.activity.NotificationDetailsActivity$1
+com/maruf/tech/quranallsura/data/sqlite/FavoriteDbController.java
+ com.maruf.tech.quranallsura.data.sqlite.FavoriteDbController
+com/maruf/tech/quranallsura/data/sqlite/DbHelper.java
+ com.maruf.tech.quranallsura.data.sqlite.DbHelper
+com/maruf/tech/quranallsura/models/content/Contents.java
+ com.maruf.tech.quranallsura.models.content.Contents
+ com.maruf.tech.quranallsura.models.content.Contents$1
+com/maruf/tech/quranallsura/notification/MyFirebaseMessagingService.java
+ com.maruf.tech.quranallsura.notification.MyFirebaseMessagingService
+com/maruf/tech/quranallsura/utility/RateItDialogFragment.java
+ com.maruf.tech.quranallsura.utility.RateItDialogFragment
+ com.maruf.tech.quranallsura.utility.RateItDialogFragment$1
+ com.maruf.tech.quranallsura.utility.RateItDialogFragment$2
+ com.maruf.tech.quranallsura.utility.RateItDialogFragment$3
+com/maruf/tech/quranallsura/activity/AboutDevActivity.java
+ com.maruf.tech.quranallsura.activity.AboutDevActivity
+com/maruf/tech/quranallsura/activity/MainActivity.java
+ com.maruf.tech.quranallsura.activity.MainActivity
+ com.maruf.tech.quranallsura.activity.MainActivity$1
+ com.maruf.tech.quranallsura.activity.MainActivity$2
+ com.maruf.tech.quranallsura.activity.MainActivity$3
+ com.maruf.tech.quranallsura.activity.MainActivity$4

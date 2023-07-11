@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">883744973273-ullfc2m6q8ag3n5q505d24hapm285e3e.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fati-apps-studio.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">883744973273</string>
+    <string name="google_api_key" translatable="false">AIzaSyCVNmT845EzywcJIIAooJ192w88z6aU5ss</string>
+    <string name="google_app_id" translatable="false">1:883744973273:android:3907a32bcea5da82f179c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCVNmT845EzywcJIIAooJ192w88z6aU5ss</string>
+    <string name="google_storage_bucket" translatable="false">fati-apps-studio.appspot.com</string>
+    <string name="project_id" translatable="false">fati-apps-studio</string>
+</resources>

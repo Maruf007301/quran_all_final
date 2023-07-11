@@ -1,0 +1,4 @@
+#Mon Jul 10 22:39:27 BDT 2023
+base.0=E\:\\Backup\\quran all with bangla meaning\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

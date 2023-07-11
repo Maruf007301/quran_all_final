@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quran_all_with_bangla_meaning.iml" filepath="$PROJECT_DIR$/.idea/modules/quran_all_with_bangla_meaning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/quran_all_with_bangla_meaning.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

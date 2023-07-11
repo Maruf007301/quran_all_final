@@ -1,0 +1,351 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maruf.tech.quranallsura"
+4    android:versionCode="16"
+5    android:versionName="1.0.16" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml
+10
+11    <!-- network permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:7:5-79
+13-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- SD Card Permission -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:10:5-80
+16-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:11:5-81
+17-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+18-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:12:5-72
+18-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:15:5-113:19
+24        android:name="com.maruf.tech.quranallsura.app.MyApplication"
+24-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:16:9-69
+25        android:allowBackup="false"
+25-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:17:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b5f8162855c21bb566682bdf47105a51\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:icon="@drawable/ic_launcher"
+27-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:18:9-45
+28        android:label="@string/app_name"
+28-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:19:9-41
+29        android:requestLegacyExternalStorage="true"
+29-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:20:9-52
+30        android:supportsRtl="true"
+30-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:21:9-35
+31        android:theme="@style/AppTheme"
+31-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:22:9-40
+32        android:usesCleartextTraffic="true" >
+32-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:23:9-44
+33        <meta-data
+33-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:25:9-27:49
+34            android:name="com.google.android.gms.ads.APPLICATION_ID"
+34-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:26:13-69
+35            android:value="@string/app_ad_id" />
+35-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:27:13-46
+36
+37        <activity
+37-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:29:9-42:20
+38            android:name="com.maruf.tech.quranallsura.activity.SplashActivity"
+38-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:31:13-79
+39            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+39-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:32:13-96
+40            android:exported="true"
+40-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:30:13-36
+41            android:label="@string/app_name"
+41-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:33:13-45
+42            android:theme="@style/AppTheme" >
+42-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:34:13-44
+43            <intent-filter>
+43-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:36:13-41:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:37:17-69
+44-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:37:25-66
+45                <action android:name="android.intent.action.VIEW" />
+45-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:38:17-69
+45-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:40:17-77
+47-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:45:9-48:47
+51            android:name="com.maruf.tech.quranallsura.activity.MainActivity"
+51-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:46:13-77
+52            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+52-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:47:13-96
+53            android:theme="@style/AppTheme" />
+53-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:48:13-44
+54        <activity
+54-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:51:9-54:47
+55            android:name="com.maruf.tech.quranallsura.activity.SettingsActivity"
+55-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:52:13-81
+56            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+56-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:53:13-96
+57            android:theme="@style/AppTheme" />
+57-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:54:13-44
+58        <activity
+58-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:57:9-60:47
+59            android:name="com.maruf.tech.quranallsura.activity.CustomUrlActivity"
+59-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:58:13-82
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:59:13-96
+61            android:theme="@style/AppTheme" />
+61-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:60:13-44
+62        <activity
+62-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:62:9-65:47
+63            android:name="com.maruf.tech.quranallsura.activity.NotificationListActivity"
+63-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:63:13-89
+64            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+64-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:64:13-96
+65            android:theme="@style/AppTheme" />
+65-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:65:13-44
+66        <activity
+66-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:67:9-70:47
+67            android:name="com.maruf.tech.quranallsura.activity.NotificationDetailsActivity"
+67-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:68:13-92
+68            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+68-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:69:13-96
+69            android:theme="@style/AppTheme" />
+69-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:70:13-44
+70        <activity
+70-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:72:9-75:59
+71            android:name="com.maruf.tech.quranallsura.activity.DetailsActivity"
+71-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:73:13-80
+72            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+72-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:74:13-96
+73            android:theme="@style/DetailsActivityTheme" />
+73-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:75:13-56
+74        <activity
+74-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:77:9-80:47
+75            android:name="com.maruf.tech.quranallsura.activity.AboutDevActivity"
+75-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:78:13-81
+76            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+76-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:79:13-96
+77            android:theme="@style/AppTheme" />
+77-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:80:13-44
+78        <activity
+78-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:82:9-85:47
+79            android:name="com.maruf.tech.quranallsura.activity.FavoriteListActivity"
+79-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:83:13-85
+80            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+80-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:84:13-96
+81            android:theme="@style/AppTheme" />
+81-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:85:13-44
+82        <activity
+82-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:87:9-94:20
+83            android:name="com.maruf.tech.quranallsura.activity.SearchActivity"
+83-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:88:13-79
+84            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+84-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:89:13-96
+85            android:theme="@style/AppTheme" >
+85-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:90:13-44
+86            <meta-data
+86-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:91:13-93:54
+87                android:name="android.app.searchable"
+87-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:92:17-54
+88                android:resource="@xml/searchable" />
+88-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:93:17-51
+89        </activity>
+90
+91        <service
+91-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:97:9-103:19
+92            android:name="com.maruf.tech.quranallsura.notification.MyFirebaseMessagingService"
+92-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:99:13-95
+93            android:exported="true" >
+93-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:98:13-36
+94            <intent-filter>
+94-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:100:13-102:29
+95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+95-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:101:17-78
+95-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:101:25-75
+96            </intent-filter>
+97        </service>
+98
+99        <meta-data
+99-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:105:9-107:68
+100            android:name="com.google.firebase.messaging.default_notification_icon"
+100-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:106:13-83
+101            android:resource="@drawable/ic_stat_ic_notification" />
+101-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:107:13-65
+102        <meta-data
+102-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:108:9-110:53
+103            android:name="com.google.firebase.messaging.default_notification_color"
+103-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:109:13-84
+104            android:resource="@color/colorAccent" />
+104-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:110:13-50
+105
+106        <!--
+107             FirebaseMessagingService performs security checks at runtime,
+108             but set to not exported to explicitly avoid allowing another app to call it.
+109        -->
+110        <service
+110-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\00557615b2830a147bac745aa56a52dc\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+111            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+111-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\00557615b2830a147bac745aa56a52dc\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\00557615b2830a147bac745aa56a52dc\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+113            <intent-filter android:priority="-500" >
+113-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:100:13-102:29
+114                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+114-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:101:17-78
+114-->E:\Backup\quran all with bangla meaning\app\src\main\AndroidManifest.xml:101:25-75
+115            </intent-filter>
+116        </service>
+117        <service
+117-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+118            android:name="com.google.firebase.components.ComponentDiscoveryService"
+118-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:28:13-84
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+120            android:exported="false" >
+120-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+121            <meta-data
+121-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+122                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+122-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\28f5a9cc775ce916433d00e6e2115dcc\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+125                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+127        </service>
+128
+129        <receiver
+129-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+130            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+130-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+131            android:exported="true"
+131-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+132            android:permission="com.google.android.c2dm.permission.SEND" >
+132-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+133            <intent-filter>
+133-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+134                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+134-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+134-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\c1c4d23f374398aad21885879974241b\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+135            </intent-filter>
+136        </receiver>
+137
+138        <provider
+138-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+139            android:name="com.google.firebase.provider.FirebaseInitProvider"
+139-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+140            android:authorities="com.maruf.tech.quranallsura.firebaseinitprovider"
+140-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\b44d2f97164a2ca0f53c68d304b52701\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+143
+144        <activity
+144-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+145            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+145-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+146            android:exported="false"
+146-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+147-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+148
+149        <receiver
+149-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+150            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+150-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+151            android:enabled="true"
+151-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+152            android:exported="false" >
+152-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+153        </receiver>
+154        <receiver
+154-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+155            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+155-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+157            android:exported="true"
+157-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+158            android:permission="android.permission.INSTALL_PACKAGES" >
+158-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+159            <intent-filter>
+159-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+160                <action android:name="com.android.vending.INSTALL_REFERRER" />
+160-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+160-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+161            </intent-filter>
+162        </receiver>
+163
+164        <service
+164-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+165            android:name="com.google.android.gms.measurement.AppMeasurementService"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+166            android:enabled="true"
+166-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+167            android:exported="false" />
+167-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+168        <service
+168-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+169            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+169-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+172            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+172-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f3127273c2cdb271e04c59391c26f90f\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+173        <activity
+173-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:29:9-33:64
+174            android:name="com.google.android.gms.ads.AdActivity"
+174-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:30:13-65
+175            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+175-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:31:13-122
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:32:13-37
+177            android:theme="@android:style/Theme.Translucent" />
+177-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:33:13-61
+178
+179        <provider
+179-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:35:9-39:39
+180            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+180-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:36:13-76
+181            android:authorities="com.maruf.tech.quranallsura.mobileadsinitprovider"
+181-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:37:13-73
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:38:13-37
+183            android:initOrder="100" />
+183-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\12b2566345023e1d859c86303c4d05c7\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:39:13-36
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\maruf\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+188    </application>
+189
+190</manifest>
